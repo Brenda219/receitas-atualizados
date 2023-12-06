@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluestore | Ecommerce</title>
+    <link rel="stylesheet" href="styles/globais.css">
+    <link rel="stylesheet" href="globais.css">
+    <link rel="stylesheet" href="bolo.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="header-inner-content">
+            <h1 class="logo">Receitas<span>Caseiras</span></h1>
+            <nav>
+                <ul class="menu">
+
+                    <li><a href="index.html">Pagina Inicial</a>
+
+                    <li><a href="#">Receitas</a>
+                        <ul>
+                            <li><a href="salgados.html">Salgados</a></li>
+                            <li><a href="doces.html">Doces</a></li>
+                            <li><a href="bolos.html">Bolos</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <center>
+        <ul>
+            <h2> Bolo de Chocolate:</h2>
+            <a href="chocolate.html">
+                
+
+              <li><img src="imagens/chocolate.png" alt=""></li>
+
+            </a>
+
+            <br>
+            <br>
+
+            <h2> Bolo de Fubá:</h2>
+
+            <a href="fuba.html">
+
+                <li><img src="imagens/fuba.png" alt=""></li>
+
+            </a>
+
+            <br>
+            <br>
+            
+            <h2> Bolo de Morango:</h2>
+
+            <a href="morango.html">
+
+                <li><img src="imagens/morango.png" alt=""></li>
+
+            </a>
+
+            <br>
+            <br>
+
+            <h2> Bolo de Cenoura:</h2>
+
+            <a href="cenoura.html">
+
+                <li><img src="imagens/cenoura.png" alt=""></li>
+
+            </a>
+
+        </ul>
+    </center>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <div class="download-options">
+                <p>Veja a nossa variedade de receitas</p>
+
+
+            </div>
+
+            <div class="logo-footer">
+                <h1 class="logo">Receitas<span>Caseiras</span></h1>
+                <p>
+                    Nosso objetivo é ajudar na melhor escolha de sobremesa
+                </p>
+            </div>
+            <div class="links-footer">
+                <h3>Categorias</h3>
+                <ul>
+                    <li>Salgados</li>
+                    <li>Doces</li>
+                    <li>Bolos</li>
+                    <li>Pão</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="page-inner-content copyright">
+            <p>Copyright 2023 - Receitas com todos direitos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+
+
+</body>
+
+</html>
